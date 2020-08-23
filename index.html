@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Enigmatic Machine</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="page-container">
+      <div class="content-wrap">
+        <div class="wrapper">
+          <header>
+            <h1 style="color: blue;">Enigmatic Machine - Password Generator</h1>
+          </header>
+          <div class="card">
+            <div class="card-header">
+              <h2 style="text-align: center;">Generate a Password</h2>
+            </div>
+            <div class="card-body">
+              <textarea
+                readonly
+                id="password"
+                placeholder="Your Secure Password"
+                aria-label="Generated Password"
+              ></textarea>
+            </div>
+              <div class="card-footer">
+                <button id="generate" class="btn">Generate Password</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- Sticky Footer -->
+      <footer class="footer" style="background-color:blue; text-align: center; color: white; padding: 10px;">Enigmatic Machine - Copyright Piotr Dudek © 2020</footer>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
