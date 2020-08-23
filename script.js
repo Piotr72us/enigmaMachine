@@ -38,13 +38,13 @@ function generatePassword() {
 
 // Function to confirm password criteria
 function confirmCriteria () {
-    confirmUppercase = confirm("Would you like to use UPPERCASE characters in your new password? Select OK if yes. Cancel if not.");
-    confirmLowercase = confirm("Would you like to use lowercase characters in your new password? Select OK if yes. Cancel if not.");
-    confirmNumbers = confirm("Would you like to use numbers like 2 or 7 in your new password? Select OK if yes. Cancel if not.");
-    confirmSpecial = confirm("Would you like to use special characters such as ! or @ in your new password? Select OK if yes. Cancel if not.");
+    confirmUppercase = confirm("Would you like to use uppercase characters in your password?");
+    confirmLowercase = confirm("Would you like to use lowercase characters in your password?");
+    confirmNumbers = confirm("Would you like to use numbers in your password?");
+    confirmSpecial = confirm("Would you like to use special characters such as @ or # in your password?");
 
     if (confirmLowercase === false && confirmUppercase === false && confirmNumbers === false && confirmSpecial === false) {
-        alert("You must include at least one of uppercase, lowercase, numerical or special characters.");
+        alert("Your password must include at least one character type: uppercase, lowercase, numerical or special character.");
         confirmCriteria ();
     }
     else {
@@ -57,7 +57,7 @@ function confirmCount () {
     characterCount = prompt("How many characters would you like to have in your password? Choose a number between 8 and 128.");
 
     if (characterCount < 8 || characterCount > 128) {
-        alert("Choose a number between 8 and 128.");
+        alert("Please choose a number between 8 and 128.");
         confirmCount();
     }
 }
