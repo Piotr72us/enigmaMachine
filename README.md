@@ -19,4 +19,6 @@ This handy password generator creates highly secure passwords based on the follo
 
 Enjoy using my password generator!
 
+![Screenshot](pic.png)
+
 #### Enigmatic Machine - Copyright Piotr Dudek © 2020
