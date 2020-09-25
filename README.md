@@ -1,6 +1,6 @@
 # Enigmatic Machine - Password Generator :rocket:
 
-### 1) GitHub Page with live version: https://piotr72us.github.io/enigmaMachine/index.html
+### 1) GitHub Page with live version: https://piotr72us.github.io/enigmatic-machine/index.html
 
 ### 2) Programming languages used:
 ```
