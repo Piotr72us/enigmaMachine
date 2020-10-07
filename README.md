@@ -1,29 +1,36 @@
+
 # Enigmatic Machine - Password Generator :rocket:
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
-### 1) GitHub Page with live version: https://piotr72us.github.io/enigmatic-machine/index.html
+## Description
+This handy browser password generator creates highly secure passwords based on the criteria stated below
 
-### 2) Programming languages used:
+## Table of Contents
+* [Installation](#Installation)
+* [Usage](#Usage)
+* [License](#License)
+* [Contributing](#Contributing)
+* [Test](#Test)
+* [Questions](#Questions)
+
+## Installation
+This application will be invoked with the following command:
 ```
-- JavaScript 47.6%
-- CSS 32.5%
-- HTML 19.9%
-```
-
-### 3) About this application:
-```
-This handy password generator creates highly secure passwords based on the following criteria:
-
-- password length: at least 8 characters and no more than 128 characters
-- at least one character type must be included:
-    - uppercase
-    - lowercase
-    - numeric
-    - special characters
+https://piotr72us.github.io/enigmatic-machine/ paste in your search engine :)
 ```
 
-Enjoy using my password generator!
+## Usage
+*password length: at least 8 characters and no more than 128 characters, *at least one character type must be included: uppercase, lowercase, numeric, special characters.</br> Enjoy using my password generator! ![Screenshot](pic.png)
 
-![Screenshot](pic.png)
+## License
+This application is covered under the MIT license.
 
-- - -
-Enigmatic Machine - Copyright Piotr Dudek © 2020
+## Contributing
+Contributor Covenant
+
+## Test
+Testing framework used: Coming soon!
+
+## Questions
+If you have additional questions, you can reach me via my GitHub profile: [piotr72us](https://github.com/piotr72us)<br/>
+or send me an email at: piotr72@gmail.com

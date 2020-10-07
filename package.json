@@ -1,0 +1,27 @@
+{
+  "name": "good-readme-generator",
+  "version": "1.0.0",
+  "description": "this is a simple and reliable readme generator for web developers",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Piotr72us/good-readme-generator.git"
+  },
+  "keywords": [
+    "readme",
+    "generator",
+    "inquirer"
+  ],
+  "author": "piotr dudek",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Piotr72us/good-readme-generator/issues"
+  },
+  "homepage": "https://github.com/Piotr72us/good-readme-generator#readme",
+  "dependencies": {
+    "inquirer": "^7.3.3"
+  }
+}
