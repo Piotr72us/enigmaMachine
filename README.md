@@ -32,5 +32,5 @@ Contributor Covenant
 Testing framework used: Coming soon!
 
 ## Questions
-If you have additional questions, you can reach me via my GitHub profile: [piotr72us](https://github.com/piotr72us)<br/>
+If you have additional questions, you can reach me via my GitHub profile: [peterdudek](https://github.com/peterdudek)<br/>
 or send me an email at: piotr72@gmail.com
